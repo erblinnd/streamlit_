@@ -9,7 +9,7 @@ hours = st.number_input("Shkruani oret")
 rate = st.number_input("Shkruani ratingun")
 result = pay_weekly(hours,rate)
 
-if st.button('Calculate wage!'):
+if st.button('Kalkulo pagen!'):
     st.write(f'{name} your wage is: ',result)
 
 
